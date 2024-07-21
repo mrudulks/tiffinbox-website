@@ -1,17 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <!-- Main layout -->
+  <div class="relative h-screen">
+    <!-- Sidebar fixed -->
+    <div class="fixed w-[100px] h-screen left-0 border-r border-tiffinYellow px-6 py-6 flex flex-col justify-between">
+        <div>
+          <img src="./assets/logo.svg" alt="" srcset="">
+        </div>
+        <div>Hello</div>
+        <div>Hello</div>
+    </div>
+    <!-- Contents -->
+    <main class="ml-[100px]">
+      <Header />
+    </main>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>

@@ -1,21 +1,21 @@
 <script setup>
-import Header from './components/Header.vue';
+import Header from "./components/Header.vue";
+import Home from "./views/Home.vue";
+import AppSideBar from "./components/FixedSideBar.vue";
 </script>
 
 <template>
   <!-- Main layout -->
-  <div class="relative h-screen">
+  <div class="relative">
     <!-- Sidebar fixed -->
-    <div class="fixed w-[100px] h-screen left-0 border-r border-tiffinYellow px-6 py-6 flex flex-col justify-between">
-        <div>
-          <img src="./assets/logo.svg" alt="" srcset="">
-        </div>
-        <div>Hello</div>
-        <div>Hello</div>
-    </div>
+    <AppSideBar />
     <!-- Contents -->
     <main class="ml-[100px]">
       <Header />
+      <Home />
+
+      <!-- <RouterView></RouterView> -->
+      <!-- Hero section -->
     </main>
   </div>
 </template>

@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Home from "./views/Home.vue";
+import About from "./views/About.vue";
 import AppSideBar from "./components/FixedSideBar.vue";
 </script>
 
@@ -12,7 +13,8 @@ import AppSideBar from "./components/FixedSideBar.vue";
     <!-- Contents -->
     <main class="ml-[100px]">
       <Header />
-      <Home />
+      <!-- <Home /> -->
+      <About />
 
       <!-- <RouterView></RouterView> -->
       <!-- Hero section -->

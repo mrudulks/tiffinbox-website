@@ -5,7 +5,15 @@
     <div>
       <img src="@/assets/logo.svg" alt="" srcset="" />
     </div>
-    <div></div>
+    <div>
+      <div
+        class="flex justify-center gap-4 transform -rotate-90 text-tiffinTextPrimary"
+      >
+        <span>Sharjah</span>
+        <span>Dubai</span>
+        <span>Coventry</span>
+      </div>
+    </div>
     <!-- Side bar icons list -->
     <ul class="flex flex-col items-center gap-6">
       <li><img src="@/assets/icons/side-bar/phone.svg" alt="" /></li>

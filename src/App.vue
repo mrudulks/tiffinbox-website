@@ -1,8 +1,21 @@
-<script setup>
+<script>
 import Header from "./components/Header.vue";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
+import Footer from "./components/Footer.vue";
 import AppSideBar from "./components/FixedSideBar.vue";
+import { RouterView } from "vue-router";
+// import { data } from "autoprefixer";
+export default {
+  components: {
+    Header,
+    Home,
+    About,
+    Footer,
+    AppSideBar,
+    RouterView,
+  },
+};
 </script>
 
 <template>
@@ -14,10 +27,11 @@ import AppSideBar from "./components/FixedSideBar.vue";
     <main class="ml-[100px]">
       <Header />
       <!-- <Home /> -->
-      <About />
+      <!-- <About /> -->
 
-      <!-- <RouterView></RouterView> -->
+      <RouterView></RouterView>
       <!-- Hero section -->
+      <Footer />
     </main>
   </div>
 </template>

@@ -1,13 +1,10 @@
 <template>
   <div id="home-sections" class="flex flex-col divide-y divide-tiffinYellow">
-    <section
-      id="hero-section"
-      class="flex items-center divide-x divide-tiffinYellow"
-    >
+    <section id="hero-section" class="flex items-center">
       <div
         class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-5xl leading-[60px] font-bold">
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">
           Welcome to <br />
           The Tiffin Box.
         </h1>
@@ -28,7 +25,7 @@
           Reserve a Table
         </button>
       </div>
-      <div class="w-1/2 p-[2px]">
+      <div class="w-1/2 p-[2px] border-l border-tiffinYellow">
         <img
           src="@/assets/images/hero.png"
           alt=""
@@ -131,7 +128,7 @@
     </section>
     <!-- The team section -->
     <section id="teams-section" class="flex items-center">
-      <div class="w-1/2 p-[2px]">
+      <div class="w-1/2 p-[2px] border-r border-tiffinYellow">
         <img
           src="@/assets/images/team.png"
           alt=""
@@ -139,9 +136,9 @@
         />
       </div>
       <div
-        class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary border-l border-tiffinYellow"
+        class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-5xl leading-[60px] font-bold">The Team</h1>
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">The Team</h1>
         <p class="text-justify">
           We features a sophisticated decor that marries traditional Indian
           elements with modern aesthetics. Spread across a two-storey building
@@ -161,14 +158,11 @@
       </div>
     </section>
     <!-- Party hall section -->
-    <section
-      id="hero-section"
-      class="flex items-center divide-x divide-tiffinYellow"
-    >
+    <section id="hero-section" class="flex items-center">
       <div
         class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-5xl leading-[60px] font-bold">Party Hall</h1>
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">Party Hall</h1>
         <p class="text-justify">
           The elegant Party Hall at The Tiffin Box is designed to host your
           special events with style and sophistication. Our intimate 50-seater
@@ -198,7 +192,7 @@
           </button>
         </div>
       </div>
-      <div class="w-1/2 p-[2px]">
+      <div class="w-1/2 p-[2px] border-l border-tiffinYellow -ml-[1px]">
         <img
           src="@/assets/images/party-hall.png"
           alt=""

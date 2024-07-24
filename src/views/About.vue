@@ -4,7 +4,7 @@
       <div
         class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-5xl leading-[60px] font-bold">About Us</h1>
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">About Us</h1>
         <div>
           <p class="text-justify">
             The Tiffin Box, where the spirit of vibrant India meets the
@@ -52,7 +52,9 @@
       <div
         class="w-1/2 pr-20 pl-14 flex flex-col gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-5xl leading-[60px] font-bold">The Tiffin Box</h1>
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">
+          The Tiffin Box
+        </h1>
         <div>
           <p class="text-justify">
             We features a sophisticated decor that marries traditional Indian
@@ -76,10 +78,12 @@
         </div>
       </div>
     </section>
-    <section class="py-10">
+    <section class="pt-10 text-tiffinTextPrimary">
       <div class="px-20">
-        <h1 class="text-5xl leading-[60px] font-bold">The Tiffin Box</h1>
-        <p class="text-justify">
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">
+          The Tiffin Box Terrace
+        </h1>
+        <p class="text-justify mt-10">
           The journey continues upstairs at "The Tiffin Box Terrace" – a space
           still unexplored by many in Coventry. The floor starts with a chic bar
           and lounge setup, featuring bar chairs and comfortable couches,
@@ -99,7 +103,7 @@
           warmth and excitement of our unique setting, or for corporate events
           where professionalism meets cultural charm. Smoking Room  
         </p>
-        <p class="text-justify">
+        <p class="text-justify mt-6">
           There is a place for everyone at “The Tiffin Box”. Our people and
           planet are crucial for us as everyone. We are consciously considering
           everything we do to minimize the waste and removal of plastic right

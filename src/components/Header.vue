@@ -27,9 +27,7 @@
     <nav
       class="grid grid-cols-6 border-b border-tiffinYellow divide-x divide-tiffinYellow"
     >
-      <RouterLink
-        to="/"
-        class="flex items-center py-6 pl-20 font-semibold text-tiffinTextYellow"
+      <RouterLink to="/" class="flex items-center py-6 pl-20 font-medium"
         >Home</RouterLink
       >
       <!-- <a href="" class="flex items-center py-6 pl-20 font-semibold text-tiffinTextYellow">Home</a> -->
@@ -63,9 +61,12 @@
   </div>
 </template>
 <script>
-import { RouterLink } from "vue-router";
+// import { RouterLink } from "vue-router";
 
 export default {
   name: "AppHeader",
+  components: {
+    // RouterLink,
+  },
 };
 </script>

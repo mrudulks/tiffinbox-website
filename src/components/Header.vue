@@ -68,17 +68,17 @@
     <!-- Mobile menu -->
     <div class="fixed top-0 left-0 w-full">
       <div
-        class="static w-full top-0 z-50 bg-tiffinBg flex lg:hidden items-center justify-between px-4 py-2 border-b border-tiffinYellow"
+        class="static w-full h-20 top-0 z-50 bg-tiffinBg flex lg:hidden items-center justify-between px-4 py-2 border-b border-tiffinYellow"
       >
         <span @click="showMenu = !showMenu">
           <svg-icon
             type="mdi"
             :path="Menu"
-            class="text-tiffinYellow"
+            class="text-tiffinYellow size-8"
           ></svg-icon>
         </span>
         <span>
-          <img src="@/assets/logo.svg" class="size-9" alt="" srcset="" />
+          <img src="@/assets/logo.svg" class="size-10" alt="" srcset="" />
         </span>
       </div>
       <Transition name="custom-classes">

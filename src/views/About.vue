@@ -1,11 +1,14 @@
 <template>
-  <div id="home-sections" class="flex flex-col divide-y divide-tiffinYellow">
+  <div
+    id="home-sections"
+    class="flex flex-col divide-y divide-tiffinYellow lg:pt-0 pt-[53px]"
+  >
     <section
       id="hero-section"
-      class="flex flex-col-reverse lg:flex-row pt-20 lg:pt-0"
+      class="flex flex-col-reverse lg:flex-row lg:pt-0"
     >
       <div
-        class="lg:w-1/2 px-10 lg:pl-20 lg:pr-14 py-20 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 px-8 lg:pl-20 lg:pr-14 py-20 flex flex-col gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">About Us</h1>
         <div>
@@ -36,7 +39,7 @@
           </p>
         </div>
       </div>
-      <div class="lg:w-1/2 p-[2px] lg:border-l border-tiffinYellow">
+      <div class="lg:w-1/2 p-0 lg:p-[2px] lg:border-l border-tiffinYellow">
         <img
           src="@/assets/images/about/hero.png"
           alt=""
@@ -53,9 +56,9 @@
         />
       </div>
       <div
-        class="w-1/2 pr-20 pl-14 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 px-8 lg:pr-20 lg:pl-14 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-2xl lg:text-5xl leading-[60px] font-bold font-sans">
+        <h1 class="text-5xl leading-[60px] font-bold font-sans">
           The Tiffin Box
         </h1>
         <div>
@@ -81,8 +84,8 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 text-tiffinTextPrimary">
-      <div class="px-20">
+    <section class="pt-20 text-tiffinTextPrimary">
+      <div class="px-8 lg:px-20">
         <h1 class="text-5xl leading-[60px] font-bold font-sans">
           The Tiffin Box Terrace
         </h1>

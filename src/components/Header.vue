@@ -37,15 +37,15 @@
         >Home</RouterLink
       >
       <!-- <a href="" class="flex items-center py-6 pl-20 font-semibold text-tiffinTextYellow">Home</a> -->
-      <a
-        href=""
+      <RouterLink
+        to="/menu"
         class="flex items-center justify-center py-6 text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
-        >Menu</a
+        >Menu</RouterLink
       >
-      <a
-        href=""
+      <RouterLink
+        to="/contact"
         class="flex items-center justify-center py-6 text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
-        >Contact Us</a
+        >Contact Us</RouterLink
       >
       <a
         href="https://web.dojo.app/create_booking/vendor/Id6-dZzUHGU9vkjHgTOO9v6nLlgP1enw3Y-YuobrXt0_restaurant?utm_source=reserve_with_google_action_link"
@@ -58,10 +58,10 @@
         >About Us</RouterLink
       >
       <!-- <a href="" class="flex items-center justify-center py-6 text-tiffinTextPrimary font-medium"></a> -->
-      <a
-        href=""
+      <RouterLink
+        to="/events"
         class="flex items-center justify-center py-6 text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
-        >Events</a
+        >Events</RouterLink
       >
     </nav>
 

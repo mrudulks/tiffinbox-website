@@ -16,8 +16,10 @@
         <p>7-9 Butts, Coventry CV1 3GJ</p>
         <div class="flex space-x-4"></div>
       </div>
-      <div class="lg:w-1/2 flex px-10 lg:pl-20 py-20">
-        <div class="w-1/2 flex flex-col space-y-4">
+      <div
+        class="lg:w-1/2 flex flex-col gap-8 lg:flex-row px-10 lg:pl-20 py-20"
+      >
+        <div class="lg:w-1/2 flex flex-col space-y-4">
           <h3 class="text-xl font-bold">Opening Hours</h3>
           <ul class="flex flex-col gap-2">
             <li class="flex items-center">
@@ -37,7 +39,7 @@
             </li>
           </ul>
         </div>
-        <div class="w-1/2 flex items-end gap-4">
+        <div class="lg:w-1/2 flex items-end gap-4 lg:gap-0">
           <img src="../assets/images/food-hygiene-rating.png" alt="" />
           <img
             src="../assets/halal-logo.png"

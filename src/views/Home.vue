@@ -97,7 +97,7 @@
           </div>
         </div>
         <!-- Reviews -->
-        <div v-for="review in 3" class="px-4">
+        <div v-for="review in 3" class="px-4 pb-4">
           <div class="flex items-center">
             <div
               class="flex-shrink-0 text-[48px] h-20 w-20 bg-[#A93F3F] text-white flex items-center justify-center rounded-full"
@@ -118,7 +118,7 @@
               </span>
             </div>
           </div>
-          <p class="text-justify mt-4">
+          <p class="text-justify mt-4 text-tiffinTextPrimary">
             What a wonderful surprise.I’ve stayed at the Ramada Coventry on
             numerous occasions and have always thought about having a meal in
             The Tiffin Box but due to work commitments I’ve been unable to. On

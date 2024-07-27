@@ -89,19 +89,21 @@
           <nav
             class="px-10 py-20 flex flex-col gap-6 flex-1 h-full font-sans text-2xl lg:hidden"
           >
-            <RouterLink to="/" class="flex font-medium hover:text-tiffinYellow"
+            <RouterLink
+              to="/"
+              class="font-medium text-tiffinTextPrimary hover:text-tiffinYellow"
               >Home</RouterLink
             >
             <!-- <a href="" class="flex items-center py-6 pl-20 font-semibold text-tiffinTextYellow">Home</a> -->
-            <a
-              href=""
-              class="text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
-              >Menu</a
+            <RouterLink
+              to="/menu"
+              class="font-medium text-tiffinTextPrimary hover:text-tiffinYellow"
+              >Menu</RouterLink
             >
-            <a
-              href=""
-              class="text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
-              >Contact Us</a
+            <RouterLink
+              to="/contact"
+              class="font-medium text-tiffinTextPrimary hover:text-tiffinYellow"
+              >Contact Us</RouterLink
             >
             <a
               href=""
@@ -114,10 +116,10 @@
               >About Us</RouterLink
             >
             <!-- <a href="" class="flex items-center justify-center py-6 text-tiffinTextPrimary font-medium"></a> -->
-            <a
-              href=""
-              class="text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
-              >Events</a
+            <RouterLink
+              to="/events"
+              class="font-medium text-tiffinTextPrimary hover:text-tiffinYellow"
+              >Events</RouterLink
             >
           </nav>
         </div>

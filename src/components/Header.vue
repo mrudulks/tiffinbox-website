@@ -114,7 +114,11 @@
               >About Us</RouterLink
             >
             <!-- <a href="" class="flex items-center justify-center py-6 text-tiffinTextPrimary font-medium"></a> -->
-            <a href="" class="font-medium hover:text-tiffinYellow">Events</a>
+            <a
+              href=""
+              class="text-tiffinTextPrimary font-medium hover:text-tiffinYellow"
+              >Events</a
+            >
           </nav>
         </div>
       </Transition>

@@ -2,7 +2,7 @@
   <div id="home-sections" class="flex flex-col divide-y divide-tiffinYellow">
     <section id="hero-section" class="flex flex-col lg:flex-row">
       <div
-        class="lg:w-1/2 lg:pl-20 lg:pr-14 py-20 px-10 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 lg:pl-20 lg:pr-14 py-20 px-8 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">
           Welcome to <br />
@@ -41,7 +41,7 @@
       class="flex flex-col divide-y divide-tiffinYellow"
     >
       <!-- Heading -->
-      <div class="px-20 py-3 flex items-center justify-between">
+      <div class="px-8 lg:px-20 py-3 flex items-center justify-between">
         <h5 class="text-lg text-tiffinTextPrimary">Reviews</h5>
         <div class="flex items-center gap-4">
           <button
@@ -59,7 +59,7 @@
         </div>
       </div>
       <!-- Reviews -->
-      <div class="px-10 lg:px-20 py-6 lg:grid lg:grid-cols-4">
+      <div class="px-8 lg:px-20 py-6 lg:grid lg:grid-cols-4">
         <div class="flex items-center gap-4">
           <div class="">
             <img src="../assets/icons/ellipse.png" alt="" />
@@ -138,7 +138,7 @@
         />
       </div>
       <div
-        class="lg:w-1/2 lg:pl-20 lg:pr-14 px-10 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 lg:pl-20 lg:pr-14 px-8 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">The Team</h1>
         <p class="text-justify">
@@ -162,7 +162,7 @@
     <!-- Party hall section -->
     <section id="hero-section" class="flex lg:flex-row flex-col">
       <div
-        class="lg:w-1/2 lg:pl-20 lg:pr-14 px-10 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 lg:pl-20 lg:pr-14 px-8 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">Party Hall</h1>
         <p class="text-justify">

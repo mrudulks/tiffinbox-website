@@ -1,8 +1,8 @@
 <template>
   <div id="home-sections" class="flex flex-col divide-y divide-tiffinYellow">
-    <section id="hero-section" class="flex items-center">
+    <section id="hero-section" class="flex flex-col lg:flex-row">
       <div
-        class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 lg:pl-20 lg:pr-14 py-20 px-10 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">
           Welcome to <br />
@@ -18,18 +18,20 @@
           meal or a special occasion, we turns into a memorable dining
           experience.
         </p>
-        <button
-          type="button"
-          class="px-6 py-2 w-56 bg-tiffinYellow text-tiffinTextPrimary roun"
+        <a
+          href="https://web.dojo.app/create_booking/vendor/Id6-dZzUHGU9vkjHgTOO9v6nLlgP1enw3Y-YuobrXt0_restaurant?utm_source=reserve_with_google_action_link"
+          class="px-6 py-2 w-56 bg-tiffinYellow text-tiffinTextPrimary text-center"
         >
           Reserve a Table
-        </button>
+        </a>
       </div>
-      <div class="w-1/2 p-[2px] border-l border-tiffinYellow">
+      <div
+        class="lg:w-1/2 p-[2px] border-t lg:border-l lg:border-t-0 border-tiffinYellow"
+      >
         <img
           src="@/assets/images/hero.png"
           alt=""
-          class="w-full object-cover"
+          class="w-full h-full object-cover"
         />
       </div>
     </section>
@@ -57,7 +59,7 @@
         </div>
       </div>
       <!-- Reviews -->
-      <div class="px-20 py-6 grid grid-cols-4">
+      <div class="px-10 lg:px-20 py-6 lg:grid lg:grid-cols-4">
         <div class="flex items-center gap-4">
           <div class="">
             <img src="../assets/icons/ellipse.png" alt="" />
@@ -127,16 +129,16 @@
       </div>
     </section>
     <!-- The team section -->
-    <section id="teams-section" class="flex items-center">
-      <div class="w-1/2 p-[2px] border-r border-tiffinYellow">
+    <section id="teams-section" class="flex flex-col lg:flex-row">
+      <div class="lg:w-1/2 p-[2px] lg:border-r border-tiffinYellow">
         <img
           src="@/assets/images/team.png"
           alt=""
-          class="w-full object-cover"
+          class="w-full h-full object-cover"
         />
       </div>
       <div
-        class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 lg:pl-20 lg:pr-14 px-10 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">The Team</h1>
         <p class="text-justify">
@@ -158,9 +160,9 @@
       </div>
     </section>
     <!-- Party hall section -->
-    <section id="hero-section" class="flex items-center">
+    <section id="hero-section" class="flex lg:flex-row flex-col">
       <div
-        class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 lg:pl-20 lg:pr-14 px-10 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">Party Hall</h1>
         <p class="text-justify">
@@ -192,11 +194,13 @@
           </button>
         </div>
       </div>
-      <div class="w-1/2 p-[2px] border-l border-tiffinYellow -ml-[1px]">
+      <div
+        class="lg:w-1/2 lg:p-[2px] border-t lg:border-t-0 lg:border-l border-tiffinYellow lg:-ml-[1px]"
+      >
         <img
           src="@/assets/images/party-hall.png"
           alt=""
-          class="w-full object-cover"
+          class="w-full h-full object-cover"
         />
       </div>
     </section>

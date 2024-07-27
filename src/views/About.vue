@@ -1,8 +1,11 @@
 <template>
   <div id="home-sections" class="flex flex-col divide-y divide-tiffinYellow">
-    <section id="hero-section" class="flex items-center">
+    <section
+      id="hero-section"
+      class="flex flex-col-reverse lg:flex-row pt-20 lg:pt-0"
+    >
       <div
-        class="w-1/2 pl-20 pr-14 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 px-10 lg:pl-20 lg:pr-14 py-20 flex flex-col gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">About Us</h1>
         <div>
@@ -33,26 +36,26 @@
           </p>
         </div>
       </div>
-      <div class="w-1/2 p-[2px] border-l border-tiffinYellow">
+      <div class="lg:w-1/2 p-[2px] lg:border-l border-tiffinYellow">
         <img
           src="@/assets/images/about/hero.png"
           alt=""
-          class="w-full object-cover"
+          class="w-full h-full object-cover"
         />
       </div>
     </section>
-    <section class="flex items-center">
-      <div class="w-1/2 p-[2px] border-r border-tiffinYellow">
+    <section class="flex flex-col lg:flex-row">
+      <div class="lg:w-1/2 p-[2px] lg:border-r border-tiffinYellow">
         <img
           src="@/assets/images/about/about2.png"
           alt=""
-          class="w-full object-cover"
+          class="w-full h-full object-cover"
         />
       </div>
       <div
-        class="w-1/2 pr-20 pl-14 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="w-1/2 pr-20 pl-14 py-20 flex flex-col justify-center gap-10 text-tiffinTextPrimary"
       >
-        <h1 class="text-5xl leading-[60px] font-bold font-sans">
+        <h1 class="text-2xl lg:text-5xl leading-[60px] font-bold font-sans">
           The Tiffin Box
         </h1>
         <div>
@@ -113,7 +116,7 @@
           environment.
         </p>
       </div>
-      <div class="mt-10">
+      <div class="mt-10 lg">
         <img
           src="@/assets/images/about/about-bottom.png"
           class="w-full"

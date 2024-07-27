@@ -24,13 +24,9 @@ export default {
     <!-- Sidebar fixed -->
     <AppSideBar />
     <!-- Contents -->
-    <main class="ml-[100px]">
+    <main class="lg:ml-[100px]">
       <Header />
-      <!-- <Home /> -->
-      <!-- <About /> -->
-
       <RouterView></RouterView>
-      <!-- Hero section -->
       <Footer />
     </main>
   </div>

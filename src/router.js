@@ -14,7 +14,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  linkActiveClass: "text-tiffinTextYellow font-semibold",
+  linkActiveClass: "text-tiffinYellow font-semibold",
   linkExactActiveClass: "border-indigo-700",
   history: createWebHistory(),
   routes,

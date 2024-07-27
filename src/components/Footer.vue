@@ -2,9 +2,9 @@
   <footer
     class="text-tiffinTextPrimary border-t border-tiffinYellow flex flex-col divide-y divide-tiffinYellow"
   >
-    <div class="container mx-auto flex">
+    <div class="lg:container lg:mx-auto flex lg:flex-row flex-col">
       <div
-        class="w-1/2 py-20 flex flex-col space-y-4 border-r border-tiffinYellow"
+        class="lg:w-1/2 px-10 py-10 lg:py-20 flex flex-col space-y-4 border-b lg:border-b-0 lg:border-r border-tiffinYellow"
       >
         <h3 class="text-xl font-bold">Let's Connect!</h3>
         <p>
@@ -16,7 +16,7 @@
         <p>7-9 Butts, Coventry CV1 3GJ</p>
         <div class="flex space-x-4"></div>
       </div>
-      <div class="w-1/2 flex pl-20 py-20">
+      <div class="lg:w-1/2 flex px-10 lg:pl-20 py-20">
         <div class="w-1/2 flex flex-col space-y-4">
           <h3 class="text-xl font-bold">Opening Hours</h3>
           <ul class="flex flex-col gap-2">
@@ -37,7 +37,8 @@
             </li>
           </ul>
         </div>
-        <div class="w-1/2 flex items-end">
+        <div class="w-1/2 flex items-end gap-4">
+          <img src="../assets/images/food-hygiene-rating.png" alt="" />
           <img
             src="../assets/halal-logo.png"
             alt="Halal Certified"
@@ -46,7 +47,7 @@
         </div>
       </div>
     </div>
-    <p class="px-20 py-5">
+    <p class="px-10 lg:px-20 py-5">
       &copy; 2004 The Time to All Rig. All rights reserved.
     </p>
   </footer>

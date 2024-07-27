@@ -1,7 +1,7 @@
 <template>
   <div
     id="home-sections"
-    class="flex flex-col divide-y divide-tiffinYellow lg:pt-0 pt-[53px]"
+    class="flex flex-col divide-y divide-tiffinYellow lg:pt-0"
   >
     <section
       id="hero-section"

@@ -49,9 +49,9 @@
               </span>
             </span>
             <p class="text-base text-tiffinTextPrimary">Based on 247 reviews</p>
-            <button
-              type="button"
+            <a
               class="px-6 py-2 mt-4 w-56 bg-tiffinYellow text-tiffinTextPrimary hidden md:flex items-center gap-2 justify-center"
+              href="https://www.google.com/search?q=tiffin+box+coventry&oq=tiff&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg8MgYIARBFGDsyBggCEEUYOTIGCAMQRRg7MgcIBBAAGI8CMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINDQ0MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x48774bff1a6980f5:0xa719bfb056f23ce3,3,,,,"
             >
               <span class="bg-white rounded-full p-1">
                 <img src="@/assets/icons/google.svg" alt="" />
@@ -59,13 +59,13 @@
               <span class="text-lg text-tiffinTextPrimary font-bold"
                 >Review Us</span
               >
-            </button>
+            </a>
           </div>
         </div>
 
-        <button
-          type="button"
+        <a
           class="px-6 py-2 mt-4 w-56 mx-auto bg-tiffinYellow text-tiffinTextPrimary flex md:hidden items-center gap-2 justify-center"
+          href="https://www.google.com/search?q=tiffin+box+coventry&oq=tiff&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg8MgYIARBFGDsyBggCEEUYOTIGCAMQRRg7MgcIBBAAGI8CMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINDQ0MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x48774bff1a6980f5:0xa719bfb056f23ce3,3,,,,"
         >
           <span class="bg-white rounded-full p-1">
             <img src="@/assets/icons/google.svg" alt="" />
@@ -73,7 +73,7 @@
           <span class="text-lg text-tiffinTextPrimary font-bold"
             >Review Us</span
           >
-        </button>
+        </a>
       </div>
       <!-- Reviews -->
       <div class="lg:w-9/12">

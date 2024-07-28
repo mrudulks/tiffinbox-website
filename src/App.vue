@@ -24,7 +24,7 @@ export default {
     <!-- Sidebar fixed -->
     <AppSideBar />
     <!-- Contents -->
-    <main class="pt-20 lg:pt-[100px]">
+    <main class="pt-20 lg:pt-0 lg:ml-[100px]">
       <Header />
       <RouterView></RouterView>
       <Footer />

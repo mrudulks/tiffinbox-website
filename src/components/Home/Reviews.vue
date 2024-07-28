@@ -24,42 +24,56 @@
       </div>
     </div>
     <!-- Reviews -->
-    <div class="px-8 lg:px-20 py-6 flex flex-col gap-8 lg:gap-0 lg:flex-row">
-      <div class="flex items-center gap-4 lg:w-3/12 flex-shrink-0">
-        <div class="flex-shrink-0">
-          <img src="@/assets/icons/ellipse.png" alt="" />
-        </div>
-        <div>
-          <h5 class="text-lg font-bold text-tiffinTextPrimary">
-            The Tiffin Box
-          </h5>
-          <span class="flex items-center gap-2">
-            <span class="text-[25px] font-bold text-tiffinTextPrimary"
-              >4.4</span
-            >
-            <span class="flex items-center gap-1 z-20">
-              <svg-icon
-                v-for="item in 5"
-                type="mdi"
-                :path="Star"
-                class="text-tiffinYellow"
-                :key="item"
-              ></svg-icon>
+    <div class="px-8 lg:px-20 py-20 flex flex-col gap-8 lg:gap-0 lg:flex-row">
+      <div class="flex flex-col gap-4 lg:w-3/12 flex-shrink-0">
+        <div class="flex items-center gap-4">
+          <div class="flex-shrink-0">
+            <img src="@/assets/icons/ellipse.png" alt="" />
+          </div>
+          <div>
+            <h5 class="text-lg font-bold text-tiffinTextPrimary">
+              The Tiffin Box
+            </h5>
+            <span class="flex items-center gap-2">
+              <span class="text-[25px] font-bold text-tiffinTextPrimary"
+                >4.4</span
+              >
+              <span class="flex items-center gap-1 z-20">
+                <svg-icon
+                  v-for="item in 5"
+                  type="mdi"
+                  :path="Star"
+                  class="text-tiffinYellow"
+                  :key="item"
+                ></svg-icon>
+              </span>
             </span>
+            <p class="text-base text-tiffinTextPrimary">Based on 247 reviews</p>
+            <button
+              type="button"
+              class="px-6 py-2 mt-4 w-56 bg-tiffinYellow text-tiffinTextPrimary hidden md:flex items-center gap-2 justify-center"
+            >
+              <span class="bg-white rounded-full p-1">
+                <img src="@/assets/icons/google.svg" alt="" />
+              </span>
+              <span class="text-lg text-tiffinTextPrimary font-bold"
+                >Review Us</span
+              >
+            </button>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="px-6 py-2 mt-4 w-56 mx-auto bg-tiffinYellow text-tiffinTextPrimary flex md:hidden items-center gap-2 justify-center"
+        >
+          <span class="bg-white rounded-full p-1">
+            <img src="@/assets/icons/google.svg" alt="" />
           </span>
-          <p class="text-base text-tiffinTextPrimary">Based on 247 reviews</p>
-          <button
-            type="button"
-            class="px-6 py-2 mt-4 w-56 bg-tiffinYellow text-tiffinTextPrimary flex items-center gap-2 justify-center"
+          <span class="text-lg text-tiffinTextPrimary font-bold"
+            >Review Us</span
           >
-            <span class="bg-white rounded-full p-1">
-              <img src="@/assets/icons/google.svg" alt="" />
-            </span>
-            <span class="text-lg text-tiffinTextPrimary font-bold"
-              >Review Us</span
-            >
-          </button>
-        </div>
+        </button>
       </div>
       <!-- Reviews -->
       <div class="lg:w-9/12">
@@ -81,7 +95,7 @@
             },
             '1440': {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 20,
             },
           }"
           navigation
@@ -196,5 +210,10 @@ export default {
   background-color: #cfa030; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid #cfa030; /* creates padding around scroll thumb */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 </style>

@@ -23,23 +23,23 @@
           <h3 class="text-xl font-bold">Opening Hours</h3>
           <ul class="flex flex-col gap-2">
             <li class="flex items-center">
-              <span class="w-48">Tuesday - Friday </span>
+              <span class="w-48 flex-shrink-0">Tuesday - Friday </span>
               <span>17:00 - 00:00 </span>
             </li>
             <li class="flex">
-              <span class="w-48">Saturday - Sunday</span>
+              <span class="w-48 flex-shrink-0">Saturday - Sunday</span>
               <span
                 >13:00 - 16:00 (Lunch), <br />
                 17:00 - 00:00</span
               >
             </li>
             <li class="flex">
-              <span class="w-48">Monday</span>
+              <span class="w-48 flex-shrink-0">Monday</span>
               <span>Closed</span>
             </li>
           </ul>
         </div>
-        <div class="lg:w-1/2 flex items-end gap-4 lg:gap-0">
+        <div class="lg:w-1/2 flex items-end gap-4 lg:gap-4">
           <img src="../assets/images/food-hygiene-rating.png" alt="" />
           <img
             src="../assets/halal-logo.png"

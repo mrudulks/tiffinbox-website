@@ -16,7 +16,11 @@
     </div>
     <!-- Side bar icons list -->
     <ul class="flex flex-col items-center gap-6">
-      <li><img src="@/assets/icons/side-bar/phone.svg" alt="" /></li>
+      <li>
+        <a href="to:+4407436514048">
+          <img src="@/assets/icons/side-bar/phone.svg" alt="" />
+        </a>
+      </li>
       <li>
         <a
           href="https://www.google.com/maps/dir//7-9+Butts,+Coventry+CV1+3GJ/@52.4046005,-1.6038368,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48774bff1a6980f5:0xa719bfb056f23ce3!2m2!1d-1.5214366!2d52.4046291?entry=ttu"

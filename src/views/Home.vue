@@ -36,98 +36,7 @@
       </div>
     </section>
     <!-- Reviews section -->
-    <section
-      id="reviews-section"
-      class="flex flex-col divide-y divide-tiffinYellow"
-    >
-      <!-- Heading -->
-      <div class="px-8 lg:px-20 py-3 flex items-center justify-between">
-        <h5 class="text-lg text-tiffinTextPrimary">Reviews</h5>
-        <div class="flex items-center gap-4">
-          <button
-            type="button"
-            class="flex items-center justify-center px-1 py-1 rounded-full bg-tiffinYellow text-white"
-          >
-            <svg-icon type="mdi" :path="ChevronLeft"></svg-icon>
-          </button>
-          <button
-            type="button"
-            class="flex items-center justify-center px-1 py-1 rounded-full bg-tiffinYellow text-white"
-          >
-            <svg-icon type="mdi" :path="ChevronRight"></svg-icon>
-          </button>
-        </div>
-      </div>
-      <!-- Reviews -->
-      <div class="px-8 lg:px-20 py-6 lg:grid lg:grid-cols-4">
-        <div class="flex items-center gap-4">
-          <div class="">
-            <img src="../assets/icons/ellipse.png" alt="" />
-          </div>
-          <div>
-            <h5 class="text-lg font-bold text-tiffinTextPrimary">
-              The Tiffin Box
-            </h5>
-            <span class="flex items-center gap-2">
-              <span class="text-[25px] font-bold text-tiffinTextPrimary"
-                >4.4</span
-              >
-              <span class="flex items-center gap-1">
-                <svg-icon
-                  v-for="item in 5"
-                  type="mdi"
-                  :path="Star"
-                  class="text-tiffinYellow"
-                  :key="item"
-                ></svg-icon>
-              </span>
-            </span>
-            <p class="text-base text-tiffinTextPrimary">Based on 247 reviews</p>
-            <button
-              type="button"
-              class="px-6 py-2 mt-4 w-56 bg-tiffinYellow text-tiffinTextPrimary flex items-center gap-2"
-            >
-              <span class="bg-white rounded-full p-1">
-                <img src="../assets/icons/google.svg" alt="" />
-              </span>
-              <span class="text-lg text-tiffinTextPrimary font-bold"
-                >Review Us</span
-              >
-            </button>
-          </div>
-        </div>
-        <!-- Reviews -->
-        <div v-for="review in 3" class="px-4 pb-4">
-          <div class="flex items-center">
-            <div
-              class="flex-shrink-0 text-[48px] h-20 w-20 bg-[#A93F3F] text-white flex items-center justify-center rounded-full"
-            >
-              J
-            </div>
-            <div class="ml-2 text-tiffinTextPrimary">
-              <h6 class="text-lg font-bold">John Christie</h6>
-              <p>a month ago</p>
-              <span class="flex items-center gap-1">
-                <svg-icon
-                  v-for="item in 4"
-                  type="mdi"
-                  :path="Star"
-                  class="text-tiffinYellow"
-                  :key="item"
-                ></svg-icon>
-              </span>
-            </div>
-          </div>
-          <p class="text-justify mt-4 text-tiffinTextPrimary">
-            What a wonderful surprise.I’ve stayed at the Ramada Coventry on
-            numerous occasions and have always thought about having a meal in
-            The Tiffin Box but due to work commitments I’ve been unable to. On
-            my last visit I brought along my girlfriend so made a great effort
-            to get over this time. I’m so pleased that I ...
-          </p>
-        </div>
-      </div>
-    </section>
+    <Reviews />
     <!-- The team section -->
     <section id="teams-section" class="flex flex-col lg:flex-row">
       <div class="lg:w-1/2 p-[2px] lg:border-r border-tiffinYellow">
@@ -210,10 +119,12 @@
 // import { ChevronLeft } from "vue-material-design-icons";
 import SvgIcon from "@jamescoyle/vue-icon";
 import { mdiChevronLeft, mdiChevronRight, mdiStar } from "@mdi/js";
+import Reviews from "../components/Home/Reviews.vue";
 export default {
   name: "Home",
   components: {
     SvgIcon,
+    Reviews,
   },
   data() {
     return {

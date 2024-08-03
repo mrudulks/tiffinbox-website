@@ -8,7 +8,7 @@
       class="flex flex-col-reverse lg:flex-row lg:pt-0"
     >
       <div
-        class="lg:w-1/2 px-8 lg:pl-20 lg:pr-14 py-20 flex flex-col gap-10 text-tiffinTextPrimary"
+        class="lg:w-1/2 px-8 lg:pl-20 lg:pr-14 py-20 flex flex-col lg:justify-center gap-10 text-tiffinTextPrimary"
       >
         <h1 class="text-5xl leading-[60px] font-bold font-sans">About Us</h1>
         <div>
@@ -41,7 +41,7 @@
       </div>
       <div class="lg:w-1/2 p-0 lg:p-[2px] lg:border-l border-tiffinYellow">
         <img
-          src="@/assets/images/about/hero.png"
+          src="@/assets/images/about/hero.jpg"
           alt=""
           class="w-full h-full object-cover"
         />
